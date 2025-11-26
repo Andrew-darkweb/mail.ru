@@ -1,0 +1,134 @@
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+.pop-login {
+    width: 328px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 15px;
+    background-color: white;
+}
+.pop-img {
+    width: 48px;
+    height: 48px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.pop-title {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+}
+.pop-mail-container {
+    display: flex;
+    margin-top: 10px;
+}
+.pop-input1 {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(144, 144, 144);
+    padding-left: 20px;
+    width: fit-content;
+    height: 44px;
+    font-size: 14px;
+}
+.pop-input-pass {
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(144, 144, 144);
+    padding-left: 20px;
+    width: 275px;
+    height: 44px;
+    margin-top: 10px;
+    width: 278px;
+    font-size: 14px;
+}
+.pop-mail2 {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(103, 103, 103);
+    padding-right: 20px;
+    padding-left: 20px;
+    width: fit-content;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+.checkbox {
+    display: flex;
+    font-size: large;
+    margin-top: 15px;
+}
+#check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#check:checked {
+    background-color: #2688eb;
+}
+.pop-btn {
+    width: 328px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #2688eb;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+label {
+    align-self: center;
+    margin-left: 10px;
+}
+.pop-vkid {
+    width: 328px;
+    height: 44px;
+    font-size: 16px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    color: black;
+    border: 1px solid rgb(144, 144, 144);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.pop-desc {
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+    color: rgb(144, 144, 144);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
